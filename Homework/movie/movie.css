@@ -1,0 +1,111 @@
+/*Quinn Luo, CSE 154, Section AI, University of Washington*/
+/*CSS file that corresponds to lionking.html*/
+.banner {
+	background-image: url("https://webster.cs.washington.edu/images/rancidbannerbg.png");
+	text-align: center;
+	background-repeat: repeat-x;
+}
+
+html {
+	font-family: Arial Helvetica sans-serif;
+	background-image: url("https://webster.cs.washington.edu/images/moviebg.png");
+	background-repeat: repeat;
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 24pt;
+	text-shadow: 3px 3px #999999;
+}
+
+.iii {
+	text-align: left;
+}
+
+.main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+	box-shadow: 5px 5px 5px gray;
+	vertical-align: text-top;
+	background-color: #EEEEEE;
+	display: flex;
+	flex-direction: row;
+}
+
+.left {
+	flex-wrap: wrap;
+}
+
+.reviews {
+	font-size: 13pt;
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.tomato {
+	background-image: url("https://webster.cs.washington.edu/images/rottenlargebg.png");
+	background-repeat: repeat-x;
+	margin-bottom: 1rem;
+}
+
+#overallRating {
+	color: red;
+	font-size: 48pt;
+	font-weight: bold;
+	vertical-align: text-bottom;
+}
+
+.publication {
+	font-style: italic;
+}
+
+.quotebubble {
+	border-radius: 12px;
+	font-size: 13pt;
+	font-family: Georgia, "Times New Roman", serif;
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #CCCCCC;
+	padding: 1em;
+}
+
+.info {
+	flex: 1;
+	background-color: #A2B964;
+}
+
+#w3c {
+	text-align: right;
+}
+
+#lion {
+	text-align: right;
+}
+
+.stats {
+	font-size: 12pt;
+	font-family: Arial Helvetica sans-serif;
+	padding: 15px;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+footer {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+	background-color: #A2B964;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}

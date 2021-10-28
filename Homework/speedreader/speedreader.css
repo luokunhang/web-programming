@@ -1,0 +1,86 @@
+/*
+	Quinn Luo, CSE 154, Section AI, University of Washington
+	This CSS file modifies the property of speedreader.html
+*/
+html {
+	background-color: #EAF6F6;
+	font-family: Garamond, serif;
+	font-size: 12pt;
+}
+
+h1 {
+	text-align: center;
+}
+
+#undertitle {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 100px;
+
+	font-size: 36pt;
+	font-weight: bold;
+	line-height: 100px;
+
+	background-color: #FFFFFF;
+
+	text-align: center;
+	
+	border: 2px solid #8EBEBE;
+	border-radius: 5px;
+}
+
+.button-container {
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	display: flex;
+	justify-content: center;
+}
+
+.button-titles {
+	text-align: left;
+	border: 0;
+}
+
+legend {
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #8EBEBE;
+	padding: 2px;
+}
+
+button {
+	background-color: #FFFFFF;
+	border: solid gray 1px;
+	width: 70px;
+}
+
+button:disabled {
+	background-color: lightgray;
+	border: solid gray 1px;
+	width: 70px;
+}
+
+#textbox {
+	display: flex;
+	justify-content: center;
+}
+
+#input {
+	display: inline-block;
+}
+
+textarea {
+	margin-left: auto;
+	margin-right: auto;
+	border: solid gray 1px;
+	background-color: #FFFFFF;
+}
+
+footer {
+	position: fixed;
+	left: 5px;
+	bottom: 5px;
+}

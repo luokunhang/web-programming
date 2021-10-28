@@ -1,0 +1,56 @@
+html {
+	background-image: url("background.jpg");
+}
+
+#door {
+	font-style: italic;
+}
+
+body {
+	width: 50%;
+	background-color: white;
+	margin: auto;
+	margin-top: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+
+legend {
+	font-weight: bold;
+}
+
+h1, #door, h2{
+	text-align: center;
+}
+
+button {
+	display: block;
+	margin: auto;
+	color: white;
+	background-color: #896652;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+fieldset {
+	margin: auto;
+	width: 60%;
+	display: flex;
+}
+
+#tip, input {
+	display: inline-block;
+	text-align: right;
+}
+
+.text {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+input {
+	float: right;
+}

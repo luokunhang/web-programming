@@ -1,0 +1,61 @@
+<!--
+	Quinn Luo, CSE 154, Section AI, University of Washington
+	This HTML file presents a spead reader: words appear in the same place to avoid
+	sub-vocalization
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SpeedReader</title>
+	<link rel="stylesheet" type="text/css" href="speedreader.css" />
+	<script type="text/javascript" src="speedreader.js"></script>
+</head>
+<body>
+	<h1>SpeedReader</h1>
+	<div id="undertitle">
+		
+	</div>
+	<div class="button-container">
+		<fieldset class="button-titles">
+			<legend>Play Controls:</legend>			
+			<button id="start">Start</button>
+			<button id="stop">Stop</button>
+		</fieldset>
+		<fieldset class="button-titles">
+			<legend>Speed:</legend>
+			<select id="sltd">
+				<option class="op" value="1200">50wpm</option>
+				<option class="op" value="200">300wpm</option>
+				<option class="op" value="171" selected="selected">350wpm</option>
+				<option class="op" value="150">400wpm</option>
+				<option class="op" value="133">450wpm</option>
+				<option class="op" value="120">500wpm</option>
+			</select>
+		</fieldset>
+			
+		<fieldset id="sz" class="button-titles">
+			<legend>Size:</legend>
+			<label>
+			<input type="radio" name="size" value="36pt" checked="checked">Medium
+			</label>
+			<label>
+			<input type="radio" name="size" value="48pt">Big
+			</label>
+			<label>
+			<input type="radio" name="size" value="60pt">Bigger
+			</label>
+		</fieldset>
+	</div>
+	<div id="textbox">
+		<fieldset class="button-titles">
+			<legend id="input">Input Text</legend>
+			<textarea id="ta" rows="10" cols="80"></textarea>
+		</fieldset>
+	</div>
+	<footer>
+		<a href="https://validator.w3.org/#validate_by_input"><img src="https://webster.cs.washington.edu/images/w3c-html-blue.png" alt="html" /></a>
+		<a href="http://jigsaw.w3.org/css-validator/#validate_by_input"><img src="https://webster.cs.washington.edu/images/w3c-css-blue.png" alt="html" /></a>
+		<a href="http://www.jslint.com/"><img src="https://webster.cs.washington.edu/images/w3c-js-blue.png" alt="html" /></a>
+	</footer>
+</body>
+</html>
